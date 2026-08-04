@@ -30,3 +30,8 @@ The requests are executed in a strict chronological sequence using the Postman C
 3. Ensure that the correct environment is selected and the `base_url` variable in your active Postman Environment is set to the correct target server.
 4. Right-click the collection -> select **Run**.
 5. Click **Start Run**.
+
+To run via CLI (**Newman**) use the following command:
+```bash
+   newman run Booker.postman_collection.json -e Booker_Environment.postman_environment.json
+   ```
