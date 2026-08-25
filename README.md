@@ -1,5 +1,5 @@
 # ⚡ Automation in Postman
-Educational project
+Educational repository demonstrating API test automation workflow in Postman (Happy Path & dynamic data chaining).
 ## 🎯 Project Goal
 This project presents automation of functional testing of web application API (Happy path).\
 \
