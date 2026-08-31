@@ -21,6 +21,7 @@ The requests are executed in a strict chronological sequence using the Postman C
 ## ⚙️ Implemented QA Practices
 * **Dynamic Data Management:** Handled runtime passing of the authorization token, capturing the server-generated booking ID and managing other parameters across requests via `pm.environment.set()`. No hardcoded parameters or static tokens are used in the core requests.
 * **Environment Parameterization:** Fully parameterized the collection using a dedicated Postman Environment. Critical data, including the `{{base_url}}`, authentication tokens, and booking test data, are dynamically fetched from environment variables.
+* **Contract Testing (JSON Schema Validation):** Implemented structural response validation using JSON Schemas for key endpoints. This ensures that the backend responses strictly comply with the expected data types and formats (e.g., verifying fields, objects, and nested elements).
 * **Header-Based Authorization:** The authentication token is dynamically passed within the request headers across endpoints, ensuring secure access control.
 
 ## ▶️ How to Run the Project
